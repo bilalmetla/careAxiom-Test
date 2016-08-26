@@ -8,7 +8,7 @@ var request = require('request');
 var async = require('async');
 
 //Lets define a port we want to listen to
-var PORT = 8080;
+var PORT = process.env.npm_config_port ? process.env.npm_config_port : 9090;
 
 //We need a function which handles requests and send response
 function handleRequest(request, response) {
