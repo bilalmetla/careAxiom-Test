@@ -1,0 +1,19 @@
+{
+  "name": "careAxiom-Nodejs-Test",
+  "version": "1.0.1",
+  "description": "The purpose of this test is to measure your understanding of control flow in an asynchronous environment.",
+
+  "dependencies": {
+    "async": "^2.0.1",
+    "request": "^2.74.0",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "async-flow": "node server-async-control-flow.js",
+    "callback-flow": "node server-callbacks-control-flow.js",
+    "promises-flow": "node server-promises-control-flow.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
