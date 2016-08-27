@@ -14,7 +14,7 @@ var PORT = process.env.npm_config_port ? process.env.npm_config_port : 9090;
 function handleRequest(request, response) {
     try {
         var currentUrl = url.parse(request.url); //currentUrl.pathname
-        if (currentUrl.pathname == "/I/want/title") {
+        if (currentUrl.pathname.replace(/\//g,"") != "Iwanttitle") {
 
             notFoundErrorResponse({
                 message: "Not Found"
