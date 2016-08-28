@@ -1,6 +1,6 @@
 # careAxiom-Test
 ## Introduction
-This test is completed in Node.js, I tried to done it with raw Nodejs. The solution contains three different files, each file contain a seprate control flow. This solution depends upon then asyn, when.js and request modules.
+This test is completed in Node.js, I tried to done it with raw Nodejs. The solution contains three different files, each file contain a seprate control flow. This solution depends upon the asyn, when.js and request modules.
 
 ## Installation
 The installation of solution is very simple. <br />
